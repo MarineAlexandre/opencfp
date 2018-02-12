@@ -105,4 +105,10 @@ EOF
             $roleName
         ));
     }
+
+    public function oui($oui, $jsaispas = 'oui')
+    {
+        // énorme
+        return $oui ? $jsaispas : 'non';
+    }
 }
