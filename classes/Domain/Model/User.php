@@ -126,4 +126,11 @@ class User extends Eloquent
     public function  getPouet2() {
         return "pouet pouet";
     }
+
+    /**
+     * @return string
+     */
+    public function  getPouet3() {
+        return "pouet pouet pouet";
+    }
 }
