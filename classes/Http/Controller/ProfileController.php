@@ -65,8 +65,8 @@ class ProfileController extends BaseController
     public function editAction(Request $request): Response
     {
 
-        $toto = 45;
-        $toto2 = 75;
+        $toto = 455;
+        $toto2 = 755;
         $toto_total = $toto+$toto2;
 
         echo "TOTAL DE TOTO = ".$toto_total;
