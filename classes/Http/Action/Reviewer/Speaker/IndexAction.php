@@ -36,6 +36,12 @@ final class IndexAction
       echo($toto);
     }
 
+    public function some_function2()
+    {
+      $toto = "some message2";
+      echo($toto);
+    }
+
     public function __invoke(HttpFoundation\Request $request): HttpFoundation\Response
     {
         $search = $request->get('search');
