@@ -93,4 +93,8 @@ class Speakers
 
         return $speaker->gethostname;
     }
+
+    public function sayHi() {
+        return "hi ສະບາຍດີ !";
+    }
 }
