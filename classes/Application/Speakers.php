@@ -81,7 +81,7 @@ class Speakers
 
     /**
      * SUPER CODE
-     *  GOD MODE
+     *  GOD MODE2
      */
 
     /**
