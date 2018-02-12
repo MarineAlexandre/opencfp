@@ -49,3 +49,4 @@ $('.js-talk-rating').on('click', function(e) {
     talk.rate(rating);
 });
 
+console_log("Hello c'est keke"); 
