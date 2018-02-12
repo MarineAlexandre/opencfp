@@ -105,4 +105,11 @@ class User extends Eloquent
 
         return true;
     }
+
+    /**
+     * @return string
+     */
+    public function getRoland() {
+        return "roland";
+    }
 }
