@@ -106,6 +106,7 @@ abstract class BaseController
 
     public function myFunction()
     {
+        echo 'Welcome in my function';
         for ($i = 0; $i < 10; $i++) {
             return $i;
         }
