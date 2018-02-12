@@ -53,6 +53,24 @@ EOF
             );
     }
 
+    protected function romainLambot()
+    {
+      $this
+          ->setDescription('Elyes El Bahri')
+          ->setDefinition([
+              new InputArgument('email', InputArgument::REQUIRED, 'Email address of user'),
+              new InputArgument('role-name', InputArgument::REQUIRED, 'Name of role user should be promoted to'),
+          ])
+          ->setHelp(
+              <<<EOF
+The <info>%command.name%</info> command promotes a user to a role group for a given environment:
+
+<info>php %command.full_name% <email> <role-name> --env=production</info>
+<info>php %command.full_name% <email> <role-name> --env=development</info>
+EOF
+          );
+    }
+
     public function execute(InputInterface $input, OutputInterface $output)
     {
         $email    = $input->getArgument('email');
