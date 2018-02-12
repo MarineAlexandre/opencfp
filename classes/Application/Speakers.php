@@ -72,4 +72,8 @@ class Speakers
 
         return $speaker->talks;
     }
+
+    public function marineFunction(){
+        return "fonction de Marine";
+    }
 }
