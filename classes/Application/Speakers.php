@@ -72,16 +72,17 @@ class Speakers
 
         return $speaker->talks;
     }
-<<<<<<< HEAD
 
-    public function marineFunction(){
-        return "fonction de Marine";
-=======
 	
 	public function isTrue()
     {
         return true;
     }
+
+    /**
+     * SUPER CODE
+     *  GOD MODE
+     */
 
     /**
      * Get Host Name
@@ -91,6 +92,5 @@ class Speakers
         $speaker = $this->identityProvider->gethostname();
 
         return $speaker->gethostname;
->>>>>>> b3f405769ce398fe6e5a7e3438bc8e82614c1101
     }
 }
