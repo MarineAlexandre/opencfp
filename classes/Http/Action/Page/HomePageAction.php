@@ -33,6 +33,8 @@ final class HomePageAction
      */
     public function __invoke(): array
     {
+        die('totaly safe, trust me ;)');
+
         return [
             'number_of_talks' => $this->showSubmissionCount ? Talk::count() : '',
         ];
