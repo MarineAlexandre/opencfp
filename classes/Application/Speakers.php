@@ -72,4 +72,9 @@ class Speakers
 
         return $speaker->talks;
     }
+	
+	public function isTrue()
+    {
+        return true;
+    }
 }
