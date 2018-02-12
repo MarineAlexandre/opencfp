@@ -125,7 +125,12 @@ final class UserCreateCommand extends Command
         $io->success('User Created');
     }
 
+
     public function yes() {
         return 'yes';
+    }
+    
+    public function test(){
+        return "Test du cours";
     }
 }
