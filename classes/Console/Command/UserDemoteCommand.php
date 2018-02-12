@@ -20,6 +20,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
+use Ou\Sont\Les\Coefficiants\Pour\Le\Projet\Annuel;
 
 final class UserDemoteCommand extends Command
 {
