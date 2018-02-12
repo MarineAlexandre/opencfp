@@ -76,6 +76,7 @@ class Speakers
 	
 	public function isTrue()
     {
+		
         return true;
     }
 
