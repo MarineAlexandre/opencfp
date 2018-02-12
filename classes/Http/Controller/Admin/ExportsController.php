@@ -140,4 +140,8 @@ class ExportsController extends BaseController
 
         return $this->export($output, $filename . '.csv');
     }
+
+    public function test(){
+        return "cours git";
+    }
 }
