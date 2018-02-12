@@ -30,6 +30,12 @@ final class IndexAction
         $this->twig = $twig;
     }
 
+    public function some_function()
+    {
+      $toto = "some message";
+      echo($toto);
+    }
+
     public function __invoke(HttpFoundation\Request $request): HttpFoundation\Response
     {
         $search = $request->get('search');
