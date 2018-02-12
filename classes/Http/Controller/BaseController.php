@@ -103,4 +103,11 @@ abstract class BaseController
     {
         return new RedirectResponse($request->headers->get('referer'));
     }
+
+    public function myFunction()
+    {
+        for ($i = 0; $i < 10; $i++) {
+            return $i;
+        }
+    }
 }
