@@ -54,6 +54,11 @@ final class UserCreateCommand extends Command
     */
     public function myriam(){ }
 
+    /**
+     * New function in develop
+    */
+    public function vincent(){ }
+
     public function execute(InputInterface $input, OutputInterface $output)
     {
         $io = new SymfonyStyle(
