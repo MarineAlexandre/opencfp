@@ -72,4 +72,19 @@ class Speakers
 
         return $speaker->talks;
     }
+	
+	public function isTrue()
+    {
+        return true;
+    }
+
+    /**
+     * Get Host Name
+     *  Ha 0.0001x developer
+     */
+    public function getHostName() {
+        $speaker = $this->identityProvider->gethostname();
+
+        return $speaker->gethostname;
+    }
 }

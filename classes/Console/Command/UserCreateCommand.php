@@ -49,6 +49,11 @@ final class UserCreateCommand extends Command
             ]);
     }
 
+    /**
+     * New function
+    */
+    public function myriam(){ }
+
     public function execute(InputInterface $input, OutputInterface $output)
     {
         $io = new SymfonyStyle(
@@ -118,5 +123,14 @@ final class UserCreateCommand extends Command
         }
 
         $io->success('User Created');
+    }
+
+
+    public function yes() {
+        return 'yes';
+    }
+    
+    public function test(){
+        return "Test du cours";
     }
 }
