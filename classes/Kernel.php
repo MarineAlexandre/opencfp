@@ -11,6 +11,7 @@ declare(strict_types=1);
  * @see https://github.com/opencfp/opencfp
  */
 
+// J'ai rajouté un commentaire secret
 namespace OpenCFP;
 
 use OpenCFP\Infrastructure\DependencyInjection\TestingPass;
