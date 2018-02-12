@@ -112,4 +112,11 @@ class User extends Eloquent
     public function getRoland() {
         return "roland";
     }
+
+    /**
+     * @return string
+     */
+    public function  getPouet() {
+        return "pouet";
+    }
 }
